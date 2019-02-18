@@ -1,8 +1,7 @@
 @import url("variables.css");
 
-.main-container{
-    position: relative;
-    min-height: 100vh;
+html{
+    scroll-behavior: smooth;
 }
 
 /* properties for every section */
@@ -19,6 +18,7 @@ section{
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    background: white;
 }
 
 .nav-links {
@@ -52,12 +52,14 @@ a:visited{
     color: #000;
 }
 
+.main-container {
+    position: relative;
+}
 
 /* footer styling */
-.footer{
+.footer {
     width: 100%;
     position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +72,11 @@ a:visited{
 
 .footer-item a {
     text-decoration: none;
-    padding: 0 15px;  
+    padding: 0 15px;
 }
 
 .footer-item:hover a {
     border-bottom: 5px solid var(--light-green);
 }
+
+/* contact form */

@@ -37,5 +37,19 @@ document.querySelector('#sliderImg3').addEventListener('touchstart', handleTouch
 document.querySelector('#sliderImg3').addEventListener('touchmove', handleTouchMove)
 document.querySelector('#sliderImg3').addEventListener('touchend', handleTouchEnd)
 
+//sticky navbar functionality
+// const nav = document.querySelector('.navbar');
+// let topOfNav = nav.offsetTop;
 
+// function fixNav() {
+//   if (window.scrollY >= topOfNav) {
+//     document.body.classList.add('fixed-nav');
+//   } else {
+//     document.body.classList.remove('fixed-nav');
+//   }
+// }
+
+// window.addEventListener('scroll', fixNav);
+
+//sticky navbar functionality
 
