@@ -1,0 +1,31 @@
+/* questionable */
+html{
+    scroll-behavior: smooth;
+}
+/* questionable */
+footer {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    background: var(--very-light-green);
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr 8fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+#scrollup,
+#scrollup img{
+    
+  height: 100%;
+  width: 40px;
+}
+
+footer p {
+    font-family: var(--oswald-font);
+    font-weight: var(--font-weight-regular);
+    font-size: 13px;;
+    display: grid;
+    justify-self: end;
+    align-self: center;
+}
